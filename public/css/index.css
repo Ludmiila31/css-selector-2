@@ -6,9 +6,9 @@ html {
 :root {
   background: white;
 }
-div {
+/* div {
   color: black;
-}
+} */
 * {
   color: black;
 }
@@ -21,9 +21,108 @@ h1 {
 #blue {
   color: blue;
 }
-section > p {
+/* section > p {
   background: red;
 }
 section > div {
   background: green;
+} */
+.box > p {
+  background: red;
+}
+.box > div {
+  background: green;
+}
+.brown {
+  background: brown;
+  color: white;
+}
+parent_ul {
+  background: red;
+}
+
+.ul {
+  background: red;
+}
+button + span {
+  background: red;
+}
+.susid ~ p {
+  background: blue;
+}
+.salo,
+#bread {
+  background: yellow;
+}
+.item:first-child {
+  color: white;
+}
+.second:first-child {
+  color: yellow;
+}
+.third-1:first-child {
+  background: yellow;
+}
+.last:last-child {
+  background: yellow;
+}
+.five:last-child {
+  color: white;
+}
+.item:only-child {
+  color: red;
+}
+.seven:first-of-type {
+  background: red;
+}
+.eight:last-of-type {
+  background: red;
+}
+.nine:only-of-type {
+  background: yellow;
+}
+a[href] {
+  color: white;
+}
+/* [value~='1'] {
+  color: yellow;
+} */
+li[class|='vel'] {
+  color: white;
+}
+li[value|='3'] {
+  background: red;
+}
+button[class|='btn'] {
+  background: blue;
+}
+button[class|='btn'] {
+  background: red;
+}
+li[class^='b'] {
+  background: white;
+  color: green;
+}
+li[class*='on'] {
+  background: white;
+  color: green;
+}
+span[class$='s'] {
+  background: white;
+  color: blue;
+}
+.ten::first-letter {
+  color: red;
+}
+.tent::first-line {
+  background: yellow;
+}
+input::placeholder {
+  background: red;
+}
+.true::before {
+  content: '*';
+}
+.lesson::after {
+  content: '*';
 }
