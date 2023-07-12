@@ -1,0 +1,29 @@
+html {
+  max-width: 720px;
+  background: white;
+}
+
+:root {
+  background: white;
+}
+div {
+  color: black;
+}
+* {
+  color: black;
+}
+h1 {
+  color: blue;
+}
+.box {
+  color: green;
+}
+#blue {
+  color: blue;
+}
+section > p {
+  background: red;
+}
+section > div {
+  background: green;
+}
